@@ -1,0 +1,42 @@
+.nav_container{
+    background-color: rgb(65, 156, 179);
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .navbar{
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+    z-index: 3;
+    position: fixed;
+    /* border-bottom-style:ridge; */
+    box-shadow: 0 5px 3px -2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo img{
+    width: 40%;
+  }
+  
+  .navbar button{
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    background: none;
+    color: rgb(32, 116, 137);
+    padding: 6%;
+  }
+  
+  .navbar button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color:  rgb(65, 156, 179);
+  
+  }
+  
+  

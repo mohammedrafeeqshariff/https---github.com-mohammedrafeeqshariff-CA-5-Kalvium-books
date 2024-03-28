@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px auto;
+    justify-content: center;
+    padding: 2%;
+    gap: 25px;
+    border: 2px solid white;
+    width: 30%;
+    font-size: 20px;
+    background-color:  white;
+
+  }
+
+  .formDiv{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: black;
+    height:fit-content;
+  }
+  
+  .formDiv h1{
+    color: white;
+    width: 40%;
+    padding-left: 34%;
+  }
+
+  .form input{
+    font-size:20px;
+    background-color: transparent;
+    /* border: none; */
+    border-bottom: 2px solid black;
+    
+  }
+  
+  .form p{
+    color: rgb(255, 0, 0);
+    
+  }
+  
+  .form button{
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 2%;
+    /* width: 10%; */
+  }
+  
+  .form button:hover{
+    background-color: black;
+    color: wheat;
+    transition: 0.3s; 
+  }

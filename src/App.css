@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Concert+One&family=DM+Sans:opsz,wght@9..40,700&family=Madimi+One&family=Patua+One&display=swap');
+
+html{
+  margin: 0%;
+}
+
+:root{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: whitesmoke;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+

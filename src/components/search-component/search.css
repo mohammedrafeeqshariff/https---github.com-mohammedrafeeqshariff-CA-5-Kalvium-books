@@ -1,0 +1,18 @@
+.searchcontainer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(65, 156, 179);
+  align-items: center;
+}
+
+.search{
+    background-color: rgb(65, 156, 179);
+  }
+  
+  .search input{
+    padding: 2%;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 90px auto 0px auto; 
+  
+  }
